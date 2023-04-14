@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/drawable/backgroungreen.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/drawable/buttonbackground.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/drawable/buttonplay.xml" value="0.1" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/drawable/buttonplaystart.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/drawable/redbackground.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/activity_single_player.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/activity_starting.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/activity_user_join.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/activity_users.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/multyplayer.xml" value="0.1" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/singlplayer.xml" value="0.1" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/splashscreen.xml" value="0.1640625" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/layout/textloutmain.xml" value="0.1" />
+        <entry key="..\:/Users/kibrug/Desktop/TiceTeoGamemultplay/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17604166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
