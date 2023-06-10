@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserJoinActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gamebackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp">
+
+
+
+        <EditText
+            android:id="@+id/user_one"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="First Player Name Here"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            />
+
+
+        <EditText
+            android:id="@+id/user_two"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Second Player Name Here"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_join"
+            android:text="Join"
+            android:textStyle="bold"
+            android:layout_marginTop="87dp"
+
+            android:background="@drawable/buttonplaystart"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

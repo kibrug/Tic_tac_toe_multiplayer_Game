@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ticeteogamemultplay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_gameicon_round"
+        android:label="Your Game developed by devKibru"
+
+        android:roundIcon="@mipmap/ic_gameicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TiceTeoGamemultplay">
+        <activity
+            android:name=".Activities.UserJoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.SinglePlayerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.StartingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.UsersActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

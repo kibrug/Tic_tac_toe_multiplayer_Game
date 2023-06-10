@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UsersActivity"
+    android:background="@drawable/gamebackground">>
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:text="Please Select Game Type"
+        android:layout_margin="10dp"
+        android:textSize="50dp"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/SinglePlayerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonbackground"
+            android:text="Single Player"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/MultiPlayerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonbackground"
+            android:text="Multi Player"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
